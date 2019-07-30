@@ -3963,7 +3963,7 @@ Show # $s->currency $t->1 %TB-Currency-T1-higher
 	CustomAlertSound "Eu sou RICA.mp3"
 Show
    StackSize >= 2
-   BaseType "Master Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Harbinger's Orb" "Regal Orb" "Orb of Regret" "Gemcutter's Prism" "Vaal Orb" "Stacked Deck" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel" "Engineer's Orb" "Orb of Horizons" "Orb of Binding" "Bestiary Orb" "Orb of Scouring" "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
+   BaseType "Master Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Harbinger's Orb" "Regal Orb" "Orb of Regret" "Gemcutter's Prism" "Vaal Orb" "Stacked Deck" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel" "Engineer's Orb" "Orb of Horizons" "Orb of Binding" "Bestiary Orb" "Orb of Scouring" "Annulment Shard" "Harbinger's Shard" "Ancient Shard""Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance"
    SetBackgroundColor 212 158 0 255
    SetBorderColor 0 0 0 255
    SetTextColor 0 0 0 255
@@ -4059,14 +4059,6 @@ Show
    PlayAlertSound 1 300
    PlayEffect Yellow 
    MinimapIcon 1 Yellow Square
-Hide
-   BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
-   SetBackgroundColor 64 19 79 204
-   SetBorderColor 209 20 209 255
-   SetTextColor 255 235 235 255
-   SetFontSize 45
-   PlayAlertSound 2 300
-   MinimapIcon 1 White Circle
    Show 
 	Class Currency
 	BaseType "Essence of" "Remnant of Corruption"
@@ -4169,299 +4161,143 @@ Show
    PlayEffect Yellow 
    MinimapIcon 1 Yellow Square
    CustomAlertSound "money.mp3"
-Show
-   LinkedSockets = 6
-   SocketGroup RRRRRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGRRRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGRGRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGGGRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGGGGR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGGGGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GGGGGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBGGGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBGBGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBBGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBBBG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBBBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BBBBBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RBBBBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RRBBBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RRBRBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RRRRBB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RRRRRB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RRRRRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGGRRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RGGRGR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup RBBRBR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBGBG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBRGBG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBRGRG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBGGRG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBGGRB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBGRB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBBRB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GBBBGB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GRBBGB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GRBRGB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GRRRGB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup GRRRGR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGRRRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGRGRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGGGRR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGGGGR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGGGGR
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGGGGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BGGBGG
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
-Show
-   LinkedSockets = 6
-   SocketGroup BRBBGB
-   SetBackgroundColor 0 0 0 204
-   SetBorderColor 0 255 79 255
-   SetTextColor 255 255 255 255
-   SetFontSize 45
+   #===============================================================================================================
+# [[0600]] 6Socketed and 5Linked Drops
+#===============================================================================================================
+
+Show # %D5
+	LinkedSockets 5
+	Sockets 6
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 0 240 190 240            # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 100 100 100 255      # BACKGROUND:	 Recipe T1
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+CustomAlertSound "money.mp3"
+
+#Show # %D4 %REMS3
+#	LinkedSockets 5
+#	ItemLevel >= 65
+#	Rarity < Unique
+#	Class "Body Armours"
+#	SetFontSize 45
+#	SetBorderColor 0 240 190 240            # BORDERCOLOR:	 Special Base
+
+#Show # %D2
+#	LinkedSockets 5
+#	ItemLevel >= 65
+#	Rarity < Unique
+#	SetFontSize 45
+#	SetBorderColor 0 240 190 240            # BORDERCOLOR:	 Special Base
+#	PlayEffect White
+#	MinimapIcon 2 White Circle
+# CustomAlertSound "money.mp3"
+
+Show # %D5 $lvl
+	LinkedSockets 5
+	ItemLevel < 65
+	Rarity < Unique
+	SetFontSize 45
+	SetBorderColor 0 240 190 240            # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255            # BACKGROUND:	 Neutral T2
+	PlayEffect White
+	MinimapIcon 2 White Circle
+CustomAlertSound "money.mp3"
+
+Show # %D5
+	Sockets 6
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType "Assassin's Garb" "Astral Plate" "Glorious Plate" "Vaal Regalia" "Zodiac Leather"
+	SetFontSize 45
+	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 200 200 0 255            # BORDERCOLOR:	 Aspect: 83plus
+	SetBackgroundColor 100 100 100 255      # BACKGROUND:	 Recipe T1
+	PlayEffect White
+	MinimapIcon 2 White Circle
+CustomAlertSound "money.mp3"
+
+Show # %D5
+	Sockets 6
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Coronal Maul" "Exquisite Blade" "Harbinger Bow" "Vaal Axe"
+	SetFontSize 45
+	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 200 200 0 255            # BORDERCOLOR:	 Aspect: 83plus
+	SetBackgroundColor 100 100 100 255      # BACKGROUND:	 Recipe T1
+	PlayEffect White
+	MinimapIcon 2 White Circle
+CustomAlertSound "money.mp3"
+
+Show 
+	Sockets 6
+	Rarity <= Rare
+	SetFontSize 45
+	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 100 100 100 255      # BACKGROUND:	 Recipe T1
+	PlayEffect White
+	MinimapIcon 2 White Circle
+CustomAlertSound "money.mp3"
+
+#------------------------------------
+#   [2311] Breach
+#------------------------------------
+
+Show # $tier->t1 $type->currency->blessings
+	Class Currency
+	BaseType "Blessing of Chayula"
+	SetFontSize 45
+	SetTextColor 130 25 255 255             # TEXTCOLOR:	 Blessing
+	SetBorderColor 130 25 255 255           # BORDERCOLOR:	 Breach
+	SetBackgroundColor 255 255 255 255      # BACKGROUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+CustomAlertSound "05_Chalupa.mp3"
+
+Show # $tier->t2 $type->currency->blessings
+	Class Currency
+	BaseType "Blessing of Esh" "Blessing of Tul" "Blessing of Uul-Netol" "Blessing of Xoph"
+	SetFontSize 45
+	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255                # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 159 15 213 255       # BACKGROUND:	 Special
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Circle
+CustomAlertSound "coin3.wav"
+
+Show # $tier->t1 $type->currency->splinters
+	Class Currency
+	BaseType "Splinter of Chayula"
+	SetFontSize 45
+	SetTextColor 255 235 235 255            # TEXTCOLOR:	 Splinter
+	SetBorderColor 210 20 210 255           # BORDERCOLOR:	 Chayula
+	SetBackgroundColor 65 20 80             # BACKGROUND:	 Breach
+	PlayEffect White
+	MinimapIcon 1 Yellow Diamond
+CustomAlertSound "05_Chalupa.mp3"
+
+Show # %HS5 %C4 $tier->t2 $type->currency->splinters
+	Class Currency
+	BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetFontSize 45
+	SetTextColor 255 235 235 255            # TEXTCOLOR:	 Splinter
+	SetBorderColor 130 25 255 255           # BORDERCOLOR:	 Breach
+	SetBackgroundColor 65 20 80             # BACKGROUND:	 Breach
+	MinimapIcon 2 White Diamond
+CustomAlertSound "coin3.wav"
+#------------------------------------
+#   [0806] Enchanted Items
+#------------------------------------
+
+Show # $type->expl->league
+	AnyEnchantment True
+	SetFontSize 45
+	SetBorderColor 0 240 190 240            # BORDERCOLOR:	 Special Base
+	PlayEffect Blue
+	MinimapIcon 2 Blue Hexagon
+CustomAlertSound "26_Varios nadas.mp3"
 
 Hide
